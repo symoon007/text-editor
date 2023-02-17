@@ -17,9 +17,9 @@ body.dark-mode {
 #text.dark-mode {
     background-color: rgb(71, 70, 94);
 }
-/* .editor.dark-mode {
-    background-color: rgb(19, 16, 39);
-} */
+#font-size.dark-mode {
+    background-color: rgb(16, 12, 39);
+}
 
 #text {
     overflow:scroll ;
