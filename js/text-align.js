@@ -84,11 +84,11 @@ textTransform.addEventListener("click", function () {
 
 const fontSizeField = document.getElementById("font-size");
 fontSizeField.addEventListener("change", function () {
-   const fontSize = fontSizeField.value + "px";
-   document.getElementById("text").style.fontSize = fontSize;
+  const fontSize = fontSizeField.value + "px";
+  document.getElementById("text").style.fontSize = fontSize;
 });
 const colorField = document.getElementById("color-field");
 colorField.addEventListener("change", function () {
-   const color = colorField.value;
-   document.getElementById("text").style.color = color;
+  const color = colorField.value;
+  document.getElementById("text").style.color = color;
 });

@@ -1,17 +1,9 @@
-const myButton = document.getElementById("myButton");
 
-myButton.addEventListener("click", function () {
-  if (myButton.classList.contains("clicked")) {
-    myButton.classList.remove("clicked");
-  } else {
-    myButton.classList.add("clicked");
-  }
-});
 function toggleDarkMode() {
   const body = document.querySelector("body");
   const editor = document.querySelector("#dark-div");
   const section = document.querySelector("#dark-section");
-  const editorText = document.querySelector(".editor");
+  const editorText = document.querySelector("#text");
   const toggle = document.querySelector(".toggle");
 
   body.classList.toggle("dark-mode");

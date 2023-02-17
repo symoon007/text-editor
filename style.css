@@ -14,11 +14,15 @@ body.dark-mode {
 #dark-section.dark-mode {
     background-color: rgb(19, 16, 39);
 }
-.editor.dark-mode {
-    background-color: rgb(19, 16, 39);
+#text.dark-mode {
+    background-color: rgb(71, 70, 94);
 }
+/* .editor.dark-mode {
+    background-color: rgb(19, 16, 39);
+} */
 
-.editor {
-    overflow:scroll;
-    background-color: white !important;
+#text {
+    overflow:scroll ;
+    background-color: white;
+   
 }
