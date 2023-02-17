@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4493e0a26b.js" crossorigin="anonymous"></script>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- vanilla css -->
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <p class=" text-right mr-5 mt-5"><button class="toggle bg-blue-500 hover:bg-blue-400 py-1 px-4" onclick="toggleDarkMode()">Dark mode</button></p>
+
+    </header>
+    <section id="dark-section" class="w-9/12 mx-auto pb-5 mt-10 bg-teal-400">
+        <h3 class="text-center text-3xl font-semibold pt-5">My Text Editor</h3>
+        <div id="dark-div" class="w-10/12 mx-auto mt-5 bg-teal-200 border border-gray-600">
+            <div class="flex justify-between mx-5 border-b-2 border-gray-600 mb-5">
+                 <div class="py-5 flex gap-6 items-center">
+               <button id="bold" class="text-xl focus:bg-emerald-300 py-1 px-2 font-semibold">B</button> 
+               <button id="italic" class="text-xl focus:bg-emerald-300 py-1 px-2 italic font-semibold">I</button>
+               <button  id="underline" class="text-xl focus:bg-emerald-300 py-1 px-2 underline font-semibold">U</button>
+            </div>
+            <div class="py-5 flex gap-6 items-center">
+                <button id="text-left" class="text-xl focus:bg-emerald-300"><i class="fa-solid focus:bg-emerald-300 py-2 px-2 fa-align-left"></i></button>
+                <button id="text-center" class="text-xl focus:bg-emerald-300"><i class="fa-solid hover:bg-emerald-300 py-2 px-2 fa-align-center"></i></button>
+                <button id="text-right" class="text-xl focus:bg-emerald-300"><i class="fa-solid hover:bg-emerald-300 py-2 px-2 fa-align-right"></i></button>
+                <button id="text-jusify" class="text-xl focus:bg-emerald-300"><i class="fa-solid hover:bg-emerald-300 py-2 px-2 fa-align-justify"></i></button>
+            </div>
+            <div class="py-5 flex gap-4 items-center">
+                <input class="bg-teal-200 w-10 text-xl" type="number" name="" id="font-size" value="18">
+                <button id="text-transform" class=" text-xl font-semibold focus:bg-emerald-300 py-2 px-4 ">Aa</button>
+                <input class="" type="color" name="" id="color-field"  value="">
+            </div>
+           
+        </div>
+       
+        <div class="h-72 pb-5 mx-5 editor">
+            <div class="h-full mx-5 bg-white rounded px-4 py-2" contenteditable="true" id="text">This is some Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe harum nesciunt voluptatem suscipit numquam corrupti ipsam, deserunt aut eveniet, nostrum vitae impedit facilis incidunt, distinctio a tempora dolores at sapiente? Fuga ullam blanditiis quasi error! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque tempora sed perferendis magni officia laudantium harum, deserunt quisquam explicabo ratione voluptate optio eveniet et aspernatur commodi sapiente eum accusantium asperiores similique eos deleniti aliquid exercitationem soluta! Quaerat cumque exercitationem voluptas magni quas consequatur, maxime quibusdam. Numquam aliquam exercitationem molestiae, eius repellendus veritatis nam explicabo facilis blanditiis quam sint ea a. Quos inventore assumenda libero qui itaque perspiciatis in. Perspiciatis consequuntur iusto nostrum? Sequi maxime nemo dicta. Dolorem saepe quod iusto eum et, magni animi odit, aut reprehenderit ipsam quos id est pariatur earum ea enim eligendi fuga dicta laboriosam architecto quam excepturi qui atque. Obcaecati soluta sed ratione aliquid aliquam odit sunt, nostrum quas, veniam alias repellendus, quisquam facilis architecto. Minus repellendus fugiat explicabo deserunt, suscipit eveniet neque aut accusantium tempora distinctio aperiam dolorum nam facilis doloremque quam dolore quod enim ipsam laudantium, hic iure ducimus corporis. Facere voluptatibus eligendi mollitia quis nihil vel vero a tenetur minus dicta eveniet harum corrupti dolorem est quae alias, consequatur dolorum enim sunt. Iure explicabo officiis at omnis, incidunt natus? Beatae, id. Libero enim autem impedit doloribus dolore, repudiandae repellendus beatae, sit totam natus, fugiat repellat minima qui. Officia odit ullam beatae impedit iure harum voluptatum exercitationem enim quis sequi, debitis delectus unde esse dignissimos necessitatibus minus iste voluptates quia tenetur, laboriosam voluptas cum nemo praesentium? Corporis velit, hic ex impedit possimus repellat ab, magnam alias harum sint provident deleniti porro maxime rerum sed fuga delectus cumque doloribus nemo vero! Odio, dicta mollitia nulla aperiam consectetur sapiente aut? Dolorem, a sunt enim officia repellat voluptatum neque quaerat vero inventore quibusdam! Ab eos similique a doloribus enim sapiente, provident expedita temporibus perferendis quidem consequatur at minima illum, magni iusto officia voluptas molestiae delectus? Iure doloribus veritatis harum blanditiis cumque tempora, vero cupiditate aspernatur.</div>
+        </div>
+           
+        
+        
+        </div>
+    </section>
+   
+    <script src="js/text.js"></script>
+    <script src="js/text-align.js"></script>
+</body>
+</html>

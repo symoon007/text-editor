@@ -1,0 +1,24 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+#dark-div.dark-mode {
+    background-color:rgb(16, 12, 39)
+    
+}
+#dark-section.dark-mode {
+    background-color: rgb(19, 16, 39);
+}
+.editor.dark-mode {
+    background-color: rgb(19, 16, 39);
+}
+
+.editor {
+    overflow:scroll;
+    background-color: white !important;
+}
